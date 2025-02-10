@@ -1,0 +1,57 @@
+* {
+  background-color: black;
+  color: white;
+}
+.cantainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11px;
+}
+.text-center {
+  text-align: center;
+  color: gold;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.row {
+  margin: 8px 5px;
+  background: none;
+}
+.btn {
+  padding: 20px;
+  border-radius: 7px;
+  outline: none;
+  border: solid 1px gold;
+  margin: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 1s;
+}
+.btn:hover {
+  background-color: rgb(118, 74, 240);
+  color: white;
+}
+.input-center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.row input {
+  padding: 16px 17px;
+  border: solid 1px gold;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.Equal {
+  padding: 4px 44px;
+  font-size: 25px;
+  border: none;
+  background-color: red;
+}
